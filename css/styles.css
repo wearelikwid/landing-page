@@ -1,0 +1,84 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* We can update this with your specific font */
+    color: #002865;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #F8D57E;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.contact-btn {
+    background-color: #CBD2E6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #002865;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #F8D57E;
+    padding: 60px 0;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.demo-btn {
+    background-color: #E55733;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-image {
+    flex: 1;
+    position: relative;
+    text-align: right;
+}
